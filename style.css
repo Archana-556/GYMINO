@@ -1,0 +1,82 @@
+ body {
+      background-color: #111;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #f97316;
+    }
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      transition: 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #f97316 !important;
+    }
+    .hero {
+      background:linear-gradient(130deg, rgba(0, 0, 0, 0.47), #3c1c0585), url('https://cdn-magazine.nutrabay.com/wp-content/uploads/2023/02/strong-bodybuilder-doing-heavy-weight-exercise-back-machine-1.jpg') no-repeat center center/cover;
+      background-attachment: fixed;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: white;
+    }
+    .hero span {
+      color: #f97316;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    .section-dark {
+      background-color: #1a1a1a;
+      padding: 60px 0;
+    }
+    .section-dark h2 {
+      color: #f97316;
+      margin-bottom: 30px;
+    }
+    .card {
+      background-color: #222;
+      color: #fff;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+    }
+    .footer {
+      background-color: #000;
+      padding: 40px 0;
+      text-align: center;
+      color: #999;
+    }
+    .btn-orange {
+      background-color: #f97316;
+      border: none;
+      color: #fff;
+    }
+    .btn-orange:hover {
+      background-color: #ff6a00;
+    }
+    .header { 
+        background: #f97316; 
+        color: black; padding: 1.5rem; 
+        text-align: center; 
+         
+    }
+    .form-section { background: #222; 
+        color: white; 
+        padding: 2rem; 
+        border: 2px double #f97316;
+        border-radius: 10px; transition: transform 0.3s; box-shadow: 0 0 10px rgba(216, 7, 7, 0.1); }
+    .form-section:hover{ transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);}
+    .btn{ background: #f97316; color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+    .btn:hover { border: 1px solid #e65c00; background-color: #030303; color: #f97316; }
